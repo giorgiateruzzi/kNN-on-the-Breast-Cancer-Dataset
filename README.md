@@ -3,6 +3,8 @@
 
 This project aims to classify breast cancer tumors as benign or malignant using the K-Nearest Neighbors (KNN) algorithm. The dataset used contains various features computed from breast mass imaging, and the target is to determine whether a tumor is malignant (cancerous) or benign (non-cancerous). 
 
+Principal Component Analysis (PCA) is also applied to the dataset to reduce its dimensionality and highlighting key patterns. 
+
 The purpose behind this project is applying the notions studied for the Artificial Intelligence I course to further my understanding and improving my Python skills.
 
 ### Dataset
@@ -54,3 +56,6 @@ The optimal value of k (number of neighbors) is determined using cross-validatio
 ### Results
 
 The KNN model achieved an accuracy score of 95.9%.
+
+## Principal Component Analysis (PCA)
+PCA is then applied to reduce the dataset's dimensionality from 30 features to 2 principal components, preserving most of the variance. The transformed components help in visualising and distinguishing between malignant and benign tumours.
